@@ -11,8 +11,8 @@ Firefox css stylesheets for the dark space theme. Matching many more UI elements
 - Download [fx-autoconfig userChrome.js manager](https://github.com/MrOtherGuy/fx-autoconfig)
 - In your file explorer open `C:\Program Files\Mozilla Firefox\`
 - Extract de files inside `program` into `C:\Program Files\Mozilla Firefox\`
-- go to `about:support` in firefox
-- click on `Clear startup cache...` in the box top left
+- Go to `about:support` in firefox
+- Click on `Clear startup cache...` button in the box top right
 ### Theme CSS
 - Download [StarryFox-Purple](https://github.com/sagars007/starry-fox)
 - In your file explorer open `%APPDATA%\Mozilla\Firefox\Profiles\XXXXXXXX.your_profile_name\`
