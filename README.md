@@ -11,10 +11,13 @@ Firefox css stylesheets for the dark space theme. Matching many more UI elements
 - Download [fx-autoconfig userChrome.js manager](https://github.com/MrOtherGuy/fx-autoconfig)
 - In your file explorer open `C:\Program Files\Mozilla Firefox\`
 - Extract de files inside `program` into `C:\Program Files\Mozilla Firefox\`
+- go to `about:support` in firefox
+- click on `Clear startup cache...` in the box top left
 ### Theme CSS
 - Download [StarryFox-Purple](https://github.com/sagars007/starry-fox)
 - In your file explorer open `%APPDATA%\Mozilla\Firefox\Profiles\XXXXXXXX.your_profile_name\`
 - Extract the `chrome` folder into `%APPDATA%\Mozilla\Firefox\Profiles\XXXXXXXX.your_profile_name\`
+- Extract the `user.js` into `%APPDATA%\Mozilla\Firefox\Profiles\XXXXXXXX.your_profile_name\`
 
 
 Thanks to @xarantolus for the container-tabs indicator.
