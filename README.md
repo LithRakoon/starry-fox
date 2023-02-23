@@ -10,7 +10,7 @@ Firefox css stylesheets for the dark space theme. Matching many more UI elements
 ### fx-autoconfig
 - Download [fx-autoconfig userChrome.js manager](https://github.com/MrOtherGuy/fx-autoconfig)
 - In your file explorer open `C:\Program Files\Mozilla Firefox\`
-- Extract de files inside `program` into `C:\Program Files\Mozilla Firefox\`
+- Extract the files inside `program` into `C:\Program Files\Mozilla Firefox\`
 - Go to `about:support` in firefox
 - Click on `Clear startup cache...` button in the box top right
 ### Theme CSS
