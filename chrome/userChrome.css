@@ -75,8 +75,8 @@
 			rgb(0, 195, 255, 0.3),
 			rgb(0, 208, 255, 0.3),
 			rgb(0, 221, 255, 0.3)
-		)
-		no-repeat !important;
+	)
+	no-repeat !important;
 }
 
 /*container indicator bar to the sides of the tab */
@@ -175,7 +175,7 @@ panel {
 /*toolbar hamburger menu gradient color*/
 #appMenu-fxa-separator {
 	border-image: 1 1 1 1
-		linear-gradient(
+	linear-gradient(
 			to right,
 			#9f1aff,
 			#9f1aff,
@@ -189,7 +189,7 @@ panel {
 			#00c3ff,
 			#00d0ff,
 			#00ddff
-		) !important;
+	) !important;
 }
 
 /*link hover tooltip custom*/
@@ -200,7 +200,7 @@ panel {
 	background-color: #101010 !important;
 	border: 1px solid transparent !important;
 	border-image: 0 0 1 0
-		linear-gradient(
+	linear-gradient(
 			to right,
 			#9f1aff,
 			#9f1aff,
@@ -214,7 +214,7 @@ panel {
 			#00c3ff,
 			#00d0ff,
 			#00ddff
-		) !important;
+	) !important;
 }
 
 /*tooltip dark theme applied in js via autoconfig. Hits all tooltips*/
@@ -247,19 +247,19 @@ panel {
 
 #urlbar:not([focused="true"]) {
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
@@ -268,19 +268,19 @@ panel {
 
 #urlbar[focused="true"] {
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -293,19 +293,19 @@ panel {
 
 #urlbar[open="true"] {
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -315,6 +315,38 @@ panel {
 	margin: 2px !important;
 	background-color: rgb(17, 17, 17, 0.7) !important;
 }
+
+/* Remove additional buttons from the URL bar, show on hover with smooth transition */
+/*
+#urlbar-input-container>#page-action-buttons {
+
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+#urlbar-input-container:hover>#page-action-buttons {
+
+    animation: 300ms delayedFadeIn ease-in-out;
+    opacity: 1;
+}
+
+@keyframes delayedFadeIn {
+    0% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+*/
+
+/* url mask size change */
+/* #urlbar:not([focused])[textoverflow="right"] > #urlbar-input-container > .urlbar-input-box > #urlbar-input {
+	mask-image: linear-gradient(to left, transparent, black 1ch) !important;
+} */
 
 #tabs-newtab-button .toolbarbutton-icon {
 	fill: #9400ff !important;
@@ -367,7 +399,7 @@ findbar > .findbar-container,
 findbar > .close-icon {
 	border: 1px transparent;
 
-	background: var(--uc-light-bkgnd-color, var(--toolbar-bgcolor)) !important;
+	background: var(--toolbar-bgcolor) !important;
 	pointer-events: auto;
 }
 findbar > .findbar-container {
@@ -391,13 +423,12 @@ findbar > .findbar-container {
 
 	padding: 5px !important;
 }
-.findbar-closebutton > image {
-	padding: 3px;
-}
+
 .findbar-closebutton:hover > image {
 	background: var(--toolbarbutton-hover-background) !important;
 	border-radius: 4px;
 }
+
 findbar > .findbar-container > hbox {
 	margin: 0 5px;
 }
@@ -421,19 +452,19 @@ findbar {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -453,19 +484,19 @@ findbar {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -495,19 +526,19 @@ findbar {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -524,19 +555,19 @@ findbar {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -587,19 +618,19 @@ search-textbox {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -614,19 +645,19 @@ search-textbox:focus {
 	background-size: auto 2px !important;
 	background-repeat: no-repeat !important;
 	background-image: linear-gradient(
-		to right,
-		rgb(159, 26, 255, 0.7),
-		rgb(159, 26, 255, 0.7),
-		rgb(138, 70, 255, 0.7),
-		rgb(118, 93, 255, 0.7),
-		rgb(93, 125, 255, 0.7),
-		rgb(62, 140, 255, 0.7),
-		rgb(28, 153, 255, 0.7),
-		rgb(0, 165, 255, 0.7),
-		rgb(0, 180, 255, 0.7),
-		rgb(0, 195, 255, 0.7),
-		rgb(0, 208, 255, 0.7),
-		rgb(0, 221, 255, 0.7)
+			to right,
+			rgb(159, 26, 255, 0.7),
+			rgb(159, 26, 255, 0.7),
+			rgb(138, 70, 255, 0.7),
+			rgb(118, 93, 255, 0.7),
+			rgb(93, 125, 255, 0.7),
+			rgb(62, 140, 255, 0.7),
+			rgb(28, 153, 255, 0.7),
+			rgb(0, 165, 255, 0.7),
+			rgb(0, 180, 255, 0.7),
+			rgb(0, 195, 255, 0.7),
+			rgb(0, 208, 255, 0.7),
+			rgb(0, 221, 255, 0.7)
 	) !important;
 }
 
@@ -667,9 +698,9 @@ menupopup {
 	--menuitem-disabled-hover-background-color: var(--panel-item-hover-bgcolor, Field) !important;
 	--menu-color: var(--arrowpanel-color, Field) !important;
 	--menu-disabled-color: color-mix(
-		in srgb,
-		var(--arrowpanel-background, Field) 65%,
-		var(--lwt-tab-text, Field)
+			in srgb,
+			var(--arrowpanel-background, Field) 65%,
+			var(--lwt-tab-text, Field)
 	) !important;
 	--menu-border-color: var(--panel-separator-color, Field) !important;
 }
@@ -987,18 +1018,18 @@ menuitem:not([_moz-menuactive="true"]) {
 /*message infobar*/
 .container.infobar::before {
 	background-image: linear-gradient(
-		#9f1aff,
-		#9f1aff,
-		#8a46ff,
-		#765dff,
-		#5d7dff,
-		#3e8cff,
-		#1c99ff,
-		#00a5ff,
-		#00b4ff,
-		#00c3ff,
-		#00d0ff,
-		#00ddff
+			#9f1aff,
+			#9f1aff,
+			#8a46ff,
+			#765dff,
+			#5d7dff,
+			#3e8cff,
+			#1c99ff,
+			#00a5ff,
+			#00b4ff,
+			#00c3ff,
+			#00d0ff,
+			#00ddff
 	) !important;
 }
 
@@ -1029,7 +1060,7 @@ menuitem:not([_moz-menuactive="true"]) {
 }
 
 @-moz-document url("chrome://mozapps/content/handling/permissionDialog.xhtml"),
-  url("chrome://mozapps/content/handling/appChooser.xhtml")
+url("chrome://mozapps/content/handling/appChooser.xhtml")
 {
 	.dialog-content-box {
 		background-color: #101010 !important;

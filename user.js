@@ -126,4 +126,3 @@ user_pref("alerts.useSystemBackend", true);
 
 // green color secure site padlock icon
 user_pref("security.secure_connection_icon_color_gray", false);
-
